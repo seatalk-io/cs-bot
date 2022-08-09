@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "cs_bot"
+version = "0.1.63"
+description = "CSBot is a framework used to develop SeaTalk Open Platform Bot APP."
+authors = ["SeaTalk Open Platform <support@seatalk.biz>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "*"
+pydantic = "*"
+psutil = "*"
+matchers = "*"
+msgpack = "*"
+requests = "*"
+peewee = "*"
+redis = "^4.3.3"
+pyjwt = "^2.4.0"
+schedule = "^1.1.0"
+flask-cors = "^3.0.10"
+prometheus-client = "^0.14.1"
+pymysql = "^1.0.2"
+cryptography = "^37.0.4"
+
+[tool.poetry.dev-dependencies]
+mkdocs = "^1.3.1"
+mkdocstrings = { version = "^0.19.0", extras = ["python"] }
+sphinx-markdown-builder = "^0.5.5"
+sphinx-autodoc-typehints = "^1.19.1"
+lazydocs = "^0.4.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

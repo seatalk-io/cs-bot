@@ -1,0 +1,1 @@
+pylint cs_bot --rcfile ci/pylint/.pylintrc

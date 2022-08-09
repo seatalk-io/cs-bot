@@ -1,0 +1,16 @@
+# Global #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+.swp
+ehthumbs.db
+Thumbs.db
+/.idea/
+
+*.pyc
+dev
+.idea
+*.pyc
+dist
