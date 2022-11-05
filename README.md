@@ -36,7 +36,7 @@ Now, your project should look like:
 #### Using pip
 
 ```shell
-pip install "cs-bot @ git+ssh://git@github.com/seatalk-io/cs-bot.git@master"
+pip install "cs-bot @ git+https://github.com/seatalk-io/cs-bot.git@main"
 ```
 
 #### Using poetry
